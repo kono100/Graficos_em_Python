@@ -151,7 +151,7 @@ plt.show()
 
 
 
-
+# Grafico 5
 
 import matplotlib.pyplot as plt
 import numpy as np
@@ -188,7 +188,7 @@ plt.show()
 
 
 
-
+# Grafico 6
 
 import matplotlib.pyplot as plt
 import numpy as np
