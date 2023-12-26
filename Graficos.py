@@ -354,7 +354,7 @@ plt.show()
 
 
 
-
+# Grafico 10
 
 import matplotlib.pyplot as plt
 import numpy as np
