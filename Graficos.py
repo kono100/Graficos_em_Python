@@ -1,4 +1,6 @@
 
+# Grafico 1
+
 import matplotlib.pyplot as plt
 
 # Dados para o gráfico
@@ -32,7 +34,7 @@ plt.show()
 
 
 
-
+# Grafico 2
 
 import matplotlib.pyplot as plt
 import numpy as np
