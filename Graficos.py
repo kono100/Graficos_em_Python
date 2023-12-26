@@ -301,6 +301,16 @@ plt.show()
 
 
 
+
+
+# ================================================================
+
+
+
+
+
+
+
 import matplotlib.pyplot as plt
 from mpl_toolkits.mplot3d import Axes3D
 import numpy as np
@@ -326,6 +336,16 @@ ax.set_title('Gráfico de Dispersão Tridimensional')
 
 # Exibir o gráfico
 plt.show()
+
+
+
+
+
+
+
+# ================================================================
+
+
 
 
 
