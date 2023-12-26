@@ -432,7 +432,7 @@ plt.show()
 
 
 
-
+# Grafico 12
 
 
 import matplotlib.pyplot as plt
