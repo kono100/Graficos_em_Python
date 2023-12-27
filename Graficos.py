@@ -882,3 +882,33 @@ ani = animation.FuncAnimation(fig, prepare_animation(bar_container), 50,
                               repeat=False, blit=True)
 plt.show()
 
+
+
+
+
+
+
+
+
+
+# ================================================================
+
+
+
+
+
+
+
+
+
+# Grafico 20
+
+import matplotlib.pyplot as plt
+import numpy as np
+
+# evenly sampled time at 200ms intervals
+t = np.arange(0., 5., 0.2)
+
+# red dashes, blue squares and green triangles
+plt.plot(t, t, 'r--', t, t**2, 'bs', t, t**3, 'g^')
+plt.show()
