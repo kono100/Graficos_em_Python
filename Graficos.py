@@ -992,3 +992,52 @@ axs[1].autoscale_view()
 
 plt.show()
 
+
+
+
+
+
+
+
+
+
+# ================================================================
+
+
+
+
+
+
+
+
+
+# # Grafico 22
+
+import matplotlib.pyplot as plt
+
+# Dados
+meses = ["jan", "fev", "mar", "abr", "mai", "jun", "jul", "ago", "set","out", "nov", "dez","..." ]
+indices = [1, 56, 50, 100, 5, 200,215 ,12 ,75, 90, 75, 150, 15]
+
+# Altera a cor da linha
+plt.plot(meses, indices, color="red")
+
+# Altera o tipo de linha
+plt.plot(meses, indices, linestyle="--")
+
+# Altera os títulos dos eixos
+plt.xlabel("Mês (ano 2019)")
+plt.ylabel("Índice de qualidade do ar (µg/m³)")
+
+# Cria o gráfico
+plt.plot(meses, indices)
+
+# Define os títulos dos eixos
+plt.xlabel("Mês")
+plt.ylabel("Índice de qualidade do ar")
+
+# Mostra o gráfico
+plt.show()
+
+
+
